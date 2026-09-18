@@ -114,18 +114,13 @@
 
 **В открывшемся окне заполняем параметры в следующем порядке:**
 
-Name: *tuic-tls*
-
-Формат TLS: *не трогаем*
-
-Use Path: *не трогаем*
-
-В Certificate File Path вставляем первую строку, которую вы скопировали из пункта выпуска сертификата, должно быть так: */root/cert/tuic.example.com/fullchain.pem*
-
-В Key File Path вставляем вторую строку, должно быть так: */root/cert/vpn.example.com/privkey.pem*
-
-Disable SNI и Allow Insecure: *оставляем выключенными*
-Остальные параметры также оставляем без изменений.
+- Name: *tuic-tls*
+- Формат TLS: *не трогаем*
+- Use Path: *не трогаем*
+- В Certificate File Path вставляем первую строку, которую вы скопировали из пункта выпуска сертификата, должно быть так: */root/cert/tuic.example.com/fullchain.pem*
+- В Key File Path вставляем вторую строку, должно быть так: */root/cert/vpn.example.com/privkey.pem*
+- Disable SNI и Allow Insecure: *оставляем выключенными*
+- Остальные параметры также оставляем без изменений.
 
 В итоге заполненное окно должно получиться таким:
 
