@@ -98,7 +98,7 @@ SSH-подключение:
 
 Во время установки у вас появится вопрос о продолжении настройки
 
-> *«Do you want to continue with the modification»* ё
+> *«Do you want to continue with the modification»*
 
 Вводите *y* и нажимайте Enter
 
