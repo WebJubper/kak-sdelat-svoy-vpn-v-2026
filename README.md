@@ -114,9 +114,9 @@
 
 **В открывшемся окне нам нужно заполнить лишь три строчки:**
 
-- Name: *tuic-tls*
-- В Certificate File Path вставляем первую строку, которую вы скопировали из пункта выпуска сертификата, должно быть так: */root/cert/tuic.example.com/fullchain.pem*
-- В Key File Path вставляем вторую строку, должно быть так: */root/cert/vpn.example.com/privkey.pem*
+- ***Name:*** *tuic-tls*
+- В ***Certificate File Path*** вставляем первую строку, которую вы скопировали из пункта выпуска сертификата, должно быть так: */root/cert/tuic.example.com/fullchain.pem*
+- В ***Key File Path*** вставляем вторую строку, должно быть так: */root/cert/vpn.example.com/privkey.pem*
 
 Все остальные параметры не трогаем.
 
