@@ -182,5 +182,7 @@ SSH-подключение:
 # Какие приложения клиенты совместимы с TUIC:
 
 Android: Nekobox [[GitHub](https://github.com/MatsuriDayo/NekoBoxForAndroid)]
+
 iOS: Straisand [[App Store](https://apps.apple.com/tr/app/streisand/id6450534064)]
+
 Windows, macOS, Linux: Throne [[GitHub](https://github.com/throneproj/Throne?ref=winstall)]
