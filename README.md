@@ -42,8 +42,8 @@
 
 3. Нажмите кнопку «Добавить запись» и добавьте запись «А»-типа.
 
-<img width="1440" height="903" alt="4" src="https://github.com/user-attachments/assets/7264c23b-bfc5-477f-a8c6-964ae49b824e" />
 <img width="1440" height="903" alt="5" src="https://github.com/user-attachments/assets/dae4d47a-2823-446c-b552-cdbd23bb3fac" />
+<img width="1440" height="903" alt="4" src="https://github.com/user-attachments/assets/7264c23b-bfc5-477f-a8c6-964ae49b824e" />
 
 
 4. В графе «Subdomain» введите название поддомена, на который вы хотите разместить панель, например «tuic», чтобы потом получилось «tuic.example.com», и укажите IP-адрес сервера, который вы арендовали, чтобы адрес был привязан к нему
@@ -140,17 +140,20 @@ SSH-подключение:
 
 После того, как вы вошли в панель управления, в боковом меню откройте раздел настроек (Settings) и перейдите в раздел *«Domains and cerificates»*:
 
-7
+<img width="1440" height="903" alt="7" src="https://github.com/user-attachments/assets/b4a7da91-f47c-42fc-b7cb-e3b4bb8d652f" />
+
 
 Здесь в пункте *«Issue a certificate»* введите ваш домен, в формате *«tuic.example.com»* и адрес электронной почты в пункте *«ACME Email (optional)»*. *«ACME Validation Method»* не трогайте, в итоге у вас должно получится примерно так, как на скриншоте:
 
-8
+<img width="1440" height="903" alt="8" src="https://github.com/user-attachments/assets/5ec7d8a1-3ebb-4941-85ce-deab2862b37e" />
+
 
 Затем нажимайте кнопку *«Issue Certificate»* и ждите когда выпустится ваш сертификат.
 
 После успешного выпуска у вас должны появиться пути нахождения ключей выпущенного сертификата. Скопируйте их в отдельный файл, чтобы вставить пути в следующем пункте.
 
-9
+<img width="1440" height="903" alt="9" src="https://github.com/user-attachments/assets/06f8ddca-9b0a-45e0-81d7-ce74d46fe0df" />
+
 
 В боковом меню переходим в пункт TLS Settings, нажимаем на верхнюю кнопку «Add».
 
@@ -166,7 +169,8 @@ SSH-подключение:
 
 В итоге заполненное окно должно получиться таким:
 
-10
+<img width="1440" height="903" alt="10" src="https://github.com/user-attachments/assets/a82b0e46-0f15-45bd-a874-7a880be8fcaa" />
+
 
 Когда вы заполните данные, нажмите «Create» и переходите к заключительному этапу.
 
@@ -174,7 +178,8 @@ SSH-подключение:
 
 В боковом меню открываем раздел *«Inbounds»* и нажимаем *«+ Add inbound»*.
 
-11, 12
+<img width="1440" height="903" alt="11" src="https://github.com/user-attachments/assets/690d91bb-d1bc-4bdf-89df-0c0da909351b" />
+<img width="1440" height="903" alt="12" src="https://github.com/user-attachments/assets/8d0b29a7-1a32-4294-9e4e-c982641598b5" />
 
 В открывшемся окне меняем также буквально пять строчек, ориентируясь на скриншот выше:
 
@@ -190,7 +195,8 @@ SSH-подключение:
 
 В этом окне происходит создание ключей, которые вы можете использовать для подключения различных устройств к вашему TUIC-серверу. Делается это очень просто!
 
-13
+<img width="1440" height="903" alt="13" src="https://github.com/user-attachments/assets/40690242-b5ae-4914-9eec-c2ddf87e4e55" />
+
 
 Заходим в раздел *Clients* и нажимаем *«+ Add Client»*:
 
